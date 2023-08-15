@@ -4,7 +4,7 @@
  *  It's multigrid, but not full MG. That is, I start at the finest level.
  *  It's written in C, but a fairly transparent version.
  *
- *  compile with : gcc -O3 nl2.c -lm 
+ *  compile with : gcc -O3 non_linear_multigrid.c -lm 
  *  with gcc version 12
  *
  *  the equation I am solving is :
