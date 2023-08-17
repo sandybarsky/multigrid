@@ -333,8 +333,8 @@ void mgrid(double *u, int n,double *f,int t)
     if(irep>2000) break; // some break condition
   } /* while */
 
-  printf("time, iterat,max diff solution previous & current time step,defect error, i of max diff, j of max diff  \n",t,irep,diffmx,diff,mxd,imx,jmx);
-  printf("%d %d %1.7e %1.7e %1.7e %d %d \n",t,irep,diffmx,diff,mxd,imx,jmx);
+  printf("time, #iter,change in solution,max defect error, (i,j) of max diff  \n");
+  printf("%d  %d  \t%1.7e \t\t %1.7e     %d %d \n",t,irep,diffmx,diff,imx,jmx);
   fflush(stdout);
 
   /*
